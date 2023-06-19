@@ -22,7 +22,7 @@ for (x = 48 ; x < 58; x++)
 				putchar(z);
 				if (x != 55 || y != 56)
 				{
-					putchar('.');
+					putchar(',');
 					putchar(' ');
 				}
 			}
