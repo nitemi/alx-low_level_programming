@@ -7,17 +7,14 @@
 */
 int main(void)
 {
-int k = 97;
+int k;
 
-while (k <= 122);
+for (k = 97; k < 123; k++)
 {
-	if (k == 101 || k== 113)
+	if (k != 101 && k != 113)
 	{
-		k++;
-		continue;
-	}
 	putchar(k);
-	k++;
+	}
 }
 putchar('\n');
 return (0);
