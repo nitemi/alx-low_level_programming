@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 6-abs.c - computes the absolur value of an integer
+ * 6-abs.c -computes the absolute value of an integer
  * @i: input number as an integer
  * Return: Absolute value
  */
