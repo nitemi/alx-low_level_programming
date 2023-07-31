@@ -16,12 +16,13 @@ int i = 0;
 
 while (s[i])
 {
- if (s[i] < '0' || s[i] > '9')
+if (s[i] < '0' || s[i] > '9')
 return (0);
 i++;
 }
 return (1);
 }
+
 /**
 * _strlen - returns the length of a string
 * @s: string to evaluate
@@ -46,6 +47,7 @@ void errors(void)
 printf("Error\n");
 exit(98);
 }
+
 /**
 * main - multiplies two positive numbers
 * @argc: number of arguments
@@ -79,7 +81,7 @@ carry = 0;
 for (len2 = _strlen(s2) - 1; len2 >= 0; len2--)
 {
 digit2 = s2[len2] - '0';
-carry += result[len1 + len2 + 1] + (digit1 * digit2);
+carry += result[len1 + len2 + 1] + (digit1 *digit2);
 result[len1 + len2 + 1] = carry % 10;
 carry /= 10;
 }
